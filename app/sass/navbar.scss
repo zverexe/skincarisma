@@ -5,6 +5,7 @@
 
 .navigation{
   box-shadow: $general-box-shadow;
+  background-color: $green;
 }
 .nav-bar{
   display: flex;
@@ -22,7 +23,7 @@
     a{
       font-family: 'Roboto', sans-serif;
       font-size: 18px;
-      color: $gray-1;
+      color: $primary-fff;
       cursor: pointer;
 
     }

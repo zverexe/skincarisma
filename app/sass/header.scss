@@ -4,15 +4,13 @@
 */
 
 .header {
-  background-color: $green;
+  background-color: $primary-fff;
   .header-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding-top: 20px;
     padding-bottom: 20px;
-
   }
   .search-bar {
     display: flex;
@@ -59,14 +57,14 @@
     }
   }
   .logo {
-    color: $primary-fff;
+    color:$dark-2;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
   .profile{
     display: flex;
     align-items: center;
-    color: $primary-fff;
+    color: $dark-2;
     .profile-info{
       display: flex;
       .profile-info__greeting{
