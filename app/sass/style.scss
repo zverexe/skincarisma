@@ -43,8 +43,8 @@ a:hover{
     a{
       padding: 10px 20px;
       &:hover{
-        color: $color-fff;
-        background-color: #368FE9;
+        color: $primary-fff;
+        background-color: $primary-blu;
       }
     }
   }

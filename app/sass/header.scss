@@ -4,7 +4,7 @@
 */
 
 .header {
-  background-color: $color-95E1D3;
+  background-color: $green;
   .header-top {
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@
       height: 40px;
       border-radius: 3px;
       text-indent: 30px;
-      color: $color-727272;
+      color:$gray-3;
       font-weight: 400;
     }
     .search__button{
@@ -51,22 +51,22 @@
       top: 4px;
       right: 5px;
       border-radius: 3px;
-      color: $color-fff;
-      background-color: $color-368FE9;
+      color: $primary-fff;
+      background-color: $primary-blu;
       font-size: 14px;
       width: 115px;
       height: 32px;
     }
   }
   .logo {
-    color: $color-fff;
+    color: $primary-fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
   .profile{
     display: flex;
     align-items: center;
-    color: $color-fff;
+    color: $primary-fff;
     .profile-info{
       display: flex;
       .profile-info__greeting{

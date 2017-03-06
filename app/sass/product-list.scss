@@ -11,7 +11,7 @@
   }
   .category-filters{
     .filter-results{
-      color: $color-808080;
+      color: $dark-1;
       font-size: 16px;
       margin-bottom: 5px;
     }
@@ -22,8 +22,8 @@
       }
       p{
         padding: 5px;
-        background-color: $color-727272;
-        color: $color-fff;
+        background-color: $gray-3;
+        color: $primary-fff;
         border-radius: 2px;
       }
     }
@@ -59,11 +59,11 @@
     }
     .products-list__category{
       font-size: 16px;
-      color: $color-B2B2B2;
+      color: $gray-2;
     }
     .products-list__rating{
       p{
-        color: $color-B2B2B2;
+        color: $gray-2;
       }
     }
   }
@@ -72,13 +72,13 @@
     justify-content: center;
     .pagination{
       a {
-        background-color: $color-EDEDED;
-        color: $color-808080;
+        background-color: $white-3;
+        color: $dark-1;
         border-radius: 2px;
         border: 0;
         &:hover, &:active {
-          background-color: $color-368FE9;
-          color: $color-fff;
+          background-color: $primary-blu;
+          color: $primary-fff;
         }
       }
       li{
