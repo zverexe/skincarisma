@@ -4,10 +4,14 @@
  */
 
 .filter{
-  box-shadow: $general-box-shadow;
   &:first-child{
     margin-top: 50px;
   }
+  .filters-type{
+    box-shadow: $general-box-shadow;
+    background-color: $primary-fff;
+  }
+
   .fa-question-circle{
     color: $primary-blu;
   }
@@ -25,9 +29,10 @@
   }
   p{
     color: $dark-1;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-size: 16px;
   }
+
   .filter-item{
     margin-bottom: 15px;
     padding: 5px 24px;

@@ -2,7 +2,7 @@
 * Header css rules
 */
 .header {
-  background-color: #95E1D3; }
+  background-color: #fff; }
   .header .header-top {
     display: -webkit-box;
     display: -webkit-flex;
@@ -41,13 +41,13 @@
       margin-right: 5px;
       width: 144px;
       border: 0;
-      -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-              box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+      -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
     .header .search-bar .search {
       position: relative;
       width: 496px;
-      -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-              box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+      -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
     .header .search-bar .search__icon {
       position: absolute;
       top: 8px;
@@ -71,7 +71,7 @@
       width: 115px;
       height: 32px; }
   .header .logo {
-    color: #fff;
+    color: #4D4D4D;
     font-family: 'Roboto', sans-serif;
     font-weight: 400; }
   .header .profile {
@@ -83,7 +83,7 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    color: #fff; }
+    color: #4D4D4D; }
     .header .profile .profile-info {
       display: -webkit-box;
       display: -webkit-flex;
