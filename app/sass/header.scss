@@ -18,19 +18,23 @@
     .dropdown-toggle{
       display: flex;
       justify-content: space-between;
-      height: 40px;
+      height: 43px;
       font-size: 18px;
       margin-right: 5px;
       width: 144px;
-      border: 0;
-      box-shadow: $general-box-shadow;
+      border: $border;
+      border-radius: 2px;
+      //box-shadow: $general-box-shadow;
 
     }
     .search {
       @extend .search-bar;
       position: relative;
       width: 496px;
-      box-shadow: $general-box-shadow;
+      //box-shadow: $general-box-shadow;
+      border: $border;
+      border-radius: 2px;
+
     }
     .search__icon{
       position: absolute;
@@ -43,6 +47,7 @@
       text-indent: 30px;
       color:$gray-3;
       font-weight: 400;
+      box-shadow: none;
     }
     .search__button{
       position: absolute;

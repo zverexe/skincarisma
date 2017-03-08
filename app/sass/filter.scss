@@ -4,11 +4,15 @@
  */
 
 .filter{
+  margin-top: 20px;
+  margin-bottom: 20px;
   &:first-child{
     margin-top: 50px;
   }
   .filters-type{
-    box-shadow: $general-box-shadow;
+    //box-shadow: $general-box-shadow;
+    border: $border;
+    border-radius: 2px;
     background-color: $primary-fff;
   }
 

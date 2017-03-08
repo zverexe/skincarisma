@@ -42,7 +42,9 @@
   }
   .products-list{
     padding: 32px;
-    box-shadow: $general-box-shadow;
+    //box-shadow: $general-box-shadow;
+    border: $border;
+    border-radius: 2px;
 
     background-color: $primary-fff;
     .products-list-item{
